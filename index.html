@@ -1083,6 +1083,7 @@
       href="./index_files/post-27.css"
       media="all"
     />
+    <link rel="stylesheet" href="./index_files/menu.css" />
     <link
       rel="stylesheet"
       id="elementor-gf-playfair-css"
@@ -1191,6 +1192,7 @@
               class="ct-toggle-close"
               data-type="type-1"
               aria-label="Close drawer"
+              id="menu-toggle"
             >
               <svg class="ct-icon" width="12" height="12" viewBox="0 0 15 15">
                 <path
@@ -1212,7 +1214,7 @@
                 data-submenu-dots="yes"
                 aria-label="Main Menu"
               >
-                <ul id="menu-main-menu-1" class="">
+                <ul id="menu" class="menu">
                   <li
                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-591"
                   >
@@ -1389,13 +1391,14 @@
                   <div data-column="end" data-placements="1">
                     <div data-items="primary">
                       <button
-                        class="ct-header-trigger ct-toggle"
+                        class="ct-header-trigger ct-toggle hamburger"
                         data-toggle-panel="#offcanvas"
                         aria-controls="offcanvas"
                         data-design="simple"
                         data-label="right"
                         aria-label="Menu"
                         data-id="trigger"
+                        id="menu-toggle"
                       >
                         <span
                           class="ct-label ct-hidden-sm ct-hidden-md ct-hidden-lg"
@@ -2153,6 +2156,24 @@
                                   class="swiper-slide-image swiper-lazy swiper-lazy-loaded"
                                   alt="University Appreciation"
                                   src="./index_files/IMG_3201@-1176137837-1-rhottvawv3xepssoh89fhw9ztnows96jop673iab1s.jpg"
+                                />
+                              </figure>
+                            </div>
+                            <div
+                              class="swiper-slide swiper-slide-prev"
+                              role="group"
+                              aria-roledescription="slide"
+                              aria-label="2 / 3"
+                              data-swiper-slide-index="1"
+                              style="width: 1229px"
+                              aria-hidden="true"
+                              inert=""
+                            >
+                              <figure class="swiper-slide-inner">
+                                <img
+                                  class="swiper-slide-image swiper-lazy swiper-lazy-loaded"
+                                  alt="WCC Freelancing Completion Ceremony"
+                                  src="./index_files/IMG_5351.JPG"
                                 />
                               </figure>
                             </div>
@@ -4840,6 +4861,7 @@
       src="./index_files/elements-handlers.min.js"
       id="pro-elements-handlers-js"
     ></script>
+    <script src="./index_files/menu.js"></script>
     <svg style="display: none" class="e-font-icon-svg-symbols"></svg>
 
     <link rel="stylesheet" href="./index_files/non-critical-styles.min.css" />
